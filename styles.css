@@ -1,4 +1,4 @@
-/* Reset de márgenes y padding */
+
 * {
     margin: 0;
     padding: 0;
@@ -79,7 +79,7 @@ section p {
 }
 
 .contact-info a {
-    color: #fff;
+    color: #035fff;
     text-decoration: none;
 }
 
@@ -90,4 +90,12 @@ section p {
 .skills ul {
     list-style-type: disc;
     padding-left: 20px;
+}
+
+a, button {
+    transition: all 0.3s ease;
+}
+
+a:hover, button:hover {
+    opacity: 0.8;
 }
